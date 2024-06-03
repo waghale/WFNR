@@ -1,0 +1,53 @@
+package com.org.wfnr_2024.Model.GET_FAVOURITE
+
+data class Get_Favourite_Response(
+    val `data`: List<Data>,
+    val message: String,
+    val status_code: Int
+) {
+    data class Data(
+        val WFNR_reg_no: String,
+        val chairman: String,
+        val city: String,
+        val conference_type: String,
+        val country: String,
+        val create_date: String,
+        val created_at: String,
+        val current_session: Int,
+        val deleted_at: Any,
+        val email: String,
+        val end_time: String,
+        val fname: String,
+        val hall: String,
+        val id: Int,
+        val is_active: Int,
+        val is_deleted: Int,
+        val is_fav: Int,
+        val isactive: Int,
+        val lname: Any,
+        val login_count: Any,
+        val member_id: String,
+        val mobile: Any,
+        val mobileno: Any,
+        val moderator: Any,
+        val modify_date: Any,
+        val panellist: Any,
+        val penalist: Any,
+        val public_is_active: Any,
+        val question_active: Int,
+        val rapporteur: Any,
+        val reg_type: Any,
+        val session_id: String,
+        val session_name: String,
+        val speaker: String,
+        val start_date: String,
+        val start_time: String,
+        val title: String,
+        val topic: String,
+        val topic_id: String,
+        val track: String,
+        val type: Int,
+        val updated_at: String,
+        val uploaded_video: Any
+    )
+}

@@ -1,0 +1,16 @@
+<!-- custom_rating_bar.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Define the empty star drawable -->
+    <item android:id="@android:id/background"
+        android:drawable="@drawable/empty_rating1" />
+    <!-- Define the filled star drawable with a custom color -->
+    <item android:id="@android:id/progress"
+        android:drawable="@drawable/filled_rating1"
+
+        />
+</layer-list>
+
+
+
+
+

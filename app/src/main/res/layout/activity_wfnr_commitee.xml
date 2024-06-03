@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+
+                android:layout_gravity="center"
+                android:layout_height="25dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/commmittee"
+                android:text="Committee"
+                android:textColor="@color/dark_green"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <ScrollView
+        android:padding="@dimen/_2sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:ignore="MissingConstraints">
+
+          <!--  <TextView
+                android:layout_marginStart="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:layout_marginTop="@dimen/_5sdp"
+                style="@style/green_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/work_sans_medium"
+                android:text="@string/Organizing_Committee" />-->
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/RecyclerView_organizing_commitee"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints">
+
+               <!-- <TextView
+                    android:layout_marginStart="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    style="@style/green_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/work_sans_medium"
+                    android:text="@string/Scientific_Programme_Committee" />-->
+
+                <androidx.recyclerview.widget.RecyclerView
+                    android:id="@+id/RecyclerView_scientific_programme"
+                    android:layout_width="match_parent"
+
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+
+</LinearLayout>

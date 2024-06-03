@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.cardview.widget.CardView
+        app:cardCornerRadius="@dimen/_7sdp"
+        android:layout_margin="@dimen/_2sdp"
+        app:cardUseCompatPadding="true"
+        app:cardBackgroundColor="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/TextView_feedback_adapter"
+                style="@style/darkgreen_bold_12ssp_TextView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                tools:ignore="MissingConstraints" />
+            <androidx.appcompat.widget.AppCompatRatingBar
+                android:layout_margin="@dimen/_5sdp"
+                android:numStars="5"
+                android:scaleX="0.98"
+                android:scaleY="0.98"
+                android:progressDrawable="@drawable/custom_rating_bar"
+                android:id="@+id/AppCompatRatingBar_feedback_adapter"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+            <EditText
+                android:singleLine="false"
+                android:inputType="textMultiLine"
+                android:padding="@dimen/_7sdp"
+                android:gravity="top|left"
+                android:layout_margin="@dimen/_5sdp"
+                android:id="@+id/EditText_feedback_adapter"
+                style="@style/EditText_topic"
+                android:background="@drawable/light_green_edittext_background"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_50sdp"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

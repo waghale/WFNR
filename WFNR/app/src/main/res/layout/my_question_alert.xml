@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/rounded_back"
+    android:layout_marginStart="45dp"
+    android:layout_marginEnd="45dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:orientation="vertical"
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_vertical">
+
+            <!-- ImageView -->
+            <ImageView
+                android:id="@+id/lineview"
+                android:layout_width="4dp"
+                android:layout_height="25dp"
+                android:layout_marginStart="20dp"
+                android:background="@drawable/rectangle"/>
+
+            <!-- Logout Text -->
+            <TextView
+                android:id="@+id/notificationTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alert"
+                android:textSize="18dp"
+                android:layout_marginTop="2dp"
+                android:fontFamily="@font/work_sans"
+                android:singleLine="false"
+                android:gravity="left|center_vertical"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="20dp"
+                android:textColor="#323336"
+                android:textStyle="bold"/>
+        </LinearLayout>
+
+        <!-- Logout Confirmation Text -->
+        <TextView
+            android:id="@+id/textViewTopic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:fontFamily="@font/work_sans"
+            android:text="Topic :"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/textViewTopictitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:fontFamily="@font/work_sans"
+            android:text="title"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/dark_green" />
+
+        <TextView
+            android:id="@+id/textViewTopicspeaker"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:fontFamily="@font/work_sans"
+            android:text="speaker :"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/green" />
+
+        <TextView
+            android:id="@+id/textViewTopicspeakername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="@dimen/dimen_10dp"
+            android:fontFamily="@font/work_sans"
+            android:text="title"
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/dark_green" />
+
+        <EditText
+            android:id="@+id/textViewquestion"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_120sdp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="2dp"
+            android:textAlignment="center"
+            android:background="@drawable/sessionwithbreak_bg"
+            android:layout_marginEnd="25dp"
+            android:fontFamily="@font/work_sans"
+            android:text="your question..."
+            android:padding="5dp"
+            android:textSize="14dp"
+            android:textColor="@color/dark_green" />
+
+        <ImageView
+            android:id="@+id/lineUnderCard"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="10dp"
+            android:background="#26333626"/>
+
+        <!-- Buttons in Horizontal LinearLayout -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="42dp">
+
+            <Button
+                android:id="@+id/buttonNo"
+                android:text="Submit"
+                android:textColor="@color/dark_green"
+                android:textSize="14dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:fontFamily="@font/work_sans"
+                android:textStyle="bold"
+                android:background="?attr/selectableItemBackgroundBorderless"/>
+
+            <!-- Vertical Line -->
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#26333626"/>
+
+            <!-- No Button -->
+            <Button
+                android:id="@+id/buttonYes"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="?attr/selectableItemBackgroundBorderless"
+                android:fontFamily="@font/work_sans"
+                android:text="Cancel"
+                android:textStyle="normal"
+                android:textColor="@color/green"
+                android:textSize="14dp" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

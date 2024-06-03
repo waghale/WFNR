@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.ContactUsActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+
+                android:layout_gravity="center"
+                android:layout_height="25dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/scientific_program_textview"
+                android:text="Contact Us"
+                android:textColor="@color/dark_green"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card1"
+            android:layout_below="@id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="4dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="50dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/contact_shadow"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Marlen Schiller"
+                    android:fontFamily="@font/work_sans"
+                    android:textSize="23dp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    />
+
+                <!-- TextView for "Executive Director" -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Project management"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#262626"
+                    />
+
+                <!-- TextView for "Executive Director" -->
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conventus Congressmanagement &amp; Marketing GmbH"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#262626"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carl-Pulfrich-Strasse 1\n07745 Jena, Germany"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="14dp"
+                    android:textColor="#262626"
+                    />
+
+                <TextView
+                    android:id="@+id/website"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wcnr@conventus.de"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/work_sans"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/card1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="12dp"
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="4dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginTop="20dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/contact_shadow"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <!-- TextView for "Tracey Mole" -->
+                <TextView
+                    android:id="@+id/textTraceyMole"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Julian Unger"
+                    android:fontFamily="@font/work_sans"
+                    android:textSize="23dp"
+                    android:textColor="@color/green"
+                    android:textStyle="bold"
+                    />
+                <TextView
+                    android:id="@+id/textExecutiveDirector"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Project management"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="3dp"
+                    android:textColor="#262626"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Conventus Congressmanagement &amp; Marketing GmbH"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="25dp"
+                    android:textColor="#262626"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Carl-Pulfrich-Strasse 1\n07745 Jena, Germany"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/work_sans"
+                    android:layout_marginTop="14dp"
+                    android:textColor="#262626"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewWebsite"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="wcnr@conventus.de"
+                    android:textSize="16dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:fontFamily="@font/work_sans"
+                    android:textColor="@color/green"
+                    android:layout_marginTop="8dp"/>
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="wrap_content">
+
+    <ScrollView
+        android:overScrollMode="always"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <androidx.viewpager2.widget.ViewPager2
+
+                android:background="@drawable/bg"
+                android:id="@+id/ViewPager2"
+                android:padding="@dimen/_25sdp"
+                android:layout_width="match_parent"
+                android:layout_height="390dp"/>
+
+        </LinearLayout>
+
+
+
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:textSize="23dp"
+                    style="@style/TextView_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="WFNR" />
+                <TextView
+                    android:layout_marginStart="@dimen/_12sdp"
+                    android:layout_marginEnd="@dimen/_12sdp"
+                    android:textSize="18dp"
+                    android:justificationMode="inter_word"
+                    android:layout_marginTop="10dp"
+                    android:textStyle="bold"
+                    android:letterSpacing="0.01"
+                    style="@style/TextView_dark_green"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_90sdp"
+                    android:text="@string/text" />
+
+            </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+    </ScrollView>
+    </RelativeLayout>
+

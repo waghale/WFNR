@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:orientation="horizontal"
+        android:visibility="visible"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_width="wrap_content"
+       android:background="@drawable/event_background"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:id="@+id/sessiontext"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MR1"
+            android:fontFamily="@font/work_sans"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textSize="24dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:textStyle="normal"
+            android:textColor="@color/gray1"/>
+
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:layout_below="@id/layout"
+        android:id="@+id/shadow1"
+        android:background="@drawable/event_background"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:padding="0dp"
+        android:visibility="gone">
+
+
+        <TextView
+            android:id="@+id/sessionname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:layout_marginRight="30dp"
+            android:fontFamily="@font/work_sans"
+            android:maxLines="2"
+            android:gravity="left|center_vertical"
+            android:singleLine="false"
+            android:text="@{data.timeslotTitle + ` : ` + data.title}"
+            android:textColor="@color/green"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+
+
+        <TextView
+            android:id="@+id/eventtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:layout_below="@id/sessionname"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:fontFamily="@font/poppins_medium"
+            android:gravity="left|center_vertical"
+            android:singleLine="false"
+            android:layout_marginBottom="10dp"
+            android:text="Event time - end time "
+            android:textColor="#6A6565"
+            android:textSize="24dp" />
+
+
+
+        <ImageView
+            android:id="@+id/arrowcircle1"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="49dp"
+            android:layout_toEndOf="@id/eventtime"
+            android:src="@drawable/back_arrow" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

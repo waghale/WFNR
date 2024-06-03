@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".Activity.WCNR_MyProfile">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+    <RelativeLayout
+        android:id="@+id/linearlayout1"
+        android:padding="10dp"
+        android:background="@drawable/dashboard_top_background"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_50sdp">
+
+        <ImageView
+            android:id="@+id/Dashboard_back"
+            android:src="@drawable/back_btn"
+            android:layout_width="35dp"
+            android:layout_centerVertical="true"
+            android:layout_height="35dp"/>
+        <!-- Add your TextView for scientific program here -->
+        <TextView
+            android:id="@+id/scientific_program_textview"
+            android:text="My Profile"
+            android:textColor="@color/dark_green"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:layout_centerVertical="true"
+            android:fontFamily="@font/work_sans"
+            android:layout_marginStart="50dp"
+            android:padding="@dimen/_4sdp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+
+    </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_below="@id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="50dp"
+            android:layout_marginStart="45dp"
+            android:layout_marginEnd="45dp"
+            android:layout_marginBottom="20dp"
+            app:cardCornerRadius="12dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_below="@id/linearlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                android:orientation="vertical"
+                android:padding="26dp"
+                >
+
+
+
+                <TextView
+                    android:id="@+id/textViewUserName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textSize="29dp"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/work_sans"
+                    android:textStyle="bold"
+                    tools:text="User Name" />
+
+                <TextView
+                    android:id="@+id/textViewUserregno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/work_sans"
+                    android:textSize="24dp"
+                    tools:text="User reg no" />
+
+
+                <TextView
+                    android:id="@+id/textViewUserEmail"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/green"
+                    android:layout_marginStart="10dp"
+                    android:fontFamily="@font/work_sans"
+                    android:textSize="24dp"
+                    tools:text="User Email" />
+
+
+
+                <TextView
+                    android:id="@+id/textViewUserCity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/work_sans"
+                    tools:text="User City" />
+
+                <TextView
+                    android:id="@+id/textViewUserCountry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/green"
+                    android:fontFamily="@font/work_sans"
+                    tools:text="User Country" />
+
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

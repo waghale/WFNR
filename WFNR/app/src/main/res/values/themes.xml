@@ -1,0 +1,30 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.WFNR" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/green</item>
+
+    </style>
+
+    <style name="Theme.WFNR" parent="Base.Theme.WFNR" />
+
+    <style name="TextView_green" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/green</item>
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+    <style name="TextView_dark_green" parent="Widget.AppCompat.TextView">
+        <item name="android:textColor">@color/dark_green</item>
+        <item name="fontFamily">@font/work_sans</item>
+        <item name="android:textStyle">normal</item>
+
+    </style>
+
+
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+        <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
+</resources>

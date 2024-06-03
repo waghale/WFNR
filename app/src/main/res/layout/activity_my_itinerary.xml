@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.MyWCNRSection"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+
+                android:layout_gravity="center"
+                android:layout_height="25dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/scientific_program_textview"
+                android:text="My Itinerary"
+                android:textColor="@color/dark_green"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerView_Itinerary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+</LinearLayout>

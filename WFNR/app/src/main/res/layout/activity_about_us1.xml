@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.AboutUsActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+
+                android:layout_gravity="center"
+                android:layout_height="25dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/scientific_program_textview"
+                android:text="About Us"
+                android:textColor="@color/dark_green"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+        </LinearLayout>
+
+       <TextView
+           android:id="@+id/text1"
+           android:layout_marginTop="50dp"
+           android:layout_width="match_parent"
+           android:layout_marginEnd="20dp"
+           android:layout_marginStart="20dp"
+           android:textColor="@color/dark_green"
+           android:fontFamily="@font/work_sans"
+           android:textSize="20dp"
+           android:layout_below="@id/linearlayout1"
+           android:text="Established in 1996, the WFNR is a multidisciplinary organisation based in the UK and open to all professionalas around the world with an interest in neurorehabilitation."
+           android:layout_height="wrap_content"/>
+
+
+        <!-- What we do section -->
+        <TextView
+            android:layout_below="@id/text1"
+            android:id="@+id/text2"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_marginStart="20dp"
+            android:textStyle="bold"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/work_sans"
+            android:textSize="23dp"
+            android:text="What we do"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_below="@id/text2"
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:fontFamily="@font/work_sans"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="WFNR drives awareness of neurorehabilitation, provides training and education, encourages research and collaboration, and is a forum of communication for all professionals with an interest in the subject. The WFNR now has over 5000 members worldwide, 38 Special interest Groups, and is affiliated with 41 National Societies in various countries."
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_below="@id/text3"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/work_sans"
+            android:textSize="23dp"
+            android:textStyle="bold"
+            android:layout_marginStart="20dp"
+            android:text="Our mission"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_below="@id/text4"
+            android:layout_width="match_parent"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/work_sans"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_marginStart="20dp"
+            android:text="&#8226; To advance the development and improve the quality of neurorehabilitation across the world"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_below="@id/text5"
+            android:layout_width="match_parent"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/work_sans"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="&#8226; To facilitate exchange of knowledge and scientific research between all health professionals with an interest in neurorehabilitation"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_below="@id/text6"
+            android:layout_width="match_parent"
+            android:textColor="@color/dark_green"
+            android:fontFamily="@font/work_sans"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="20dp"
+            android:text="&#8226; To stimulate collaboration between all health professionals with an interest in neurorehabilitation"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="50dp"/>
+
+        <TextView
+            android:layout_below="@id/text7"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:text="Version 3.0"
+            android:gravity="center"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="40dp"
+            android:id="@+id/textView_Version"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+
+</ScrollView>

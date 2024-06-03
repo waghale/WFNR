@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588870190739",
+    "project_id": "wfnr-b909b",
+    "storage_bucket": "wfnr-b909b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588870190739:android:52769d9ac5cb2e2183ef66",
+        "android_client_info": {
+          "package_name": "com.org.wfnr_2024"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5GIv2F1XQHsfGYy0A76hndzan4uJEvfc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

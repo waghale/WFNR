@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Activity.NotificationActivity">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="35dp"
+
+                android:layout_gravity="center"
+                android:layout_height="35dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/scientific_program_textview"
+                android:text="Notification"
+                android:textColor="@color/dark_green"
+                android:textSize="28dp"
+                android:padding="@dimen/_4sdp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+
+
+        </LinearLayout>
+
+
+        <RelativeLayout
+            android:layout_below="@id/linearlayout1"
+            android:layout_width="match_parent"
+            android:layout_marginTop="15dp"
+            android:layout_height="match_parent">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="match_parent"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/recyclerview"/>
+
+
+
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/no_data_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:textSize="18dp"
+            android:textColor="@color/black"
+            android:text="No Notification available"
+            />
+
+    </RelativeLayout>
+
+
+</FrameLayout>

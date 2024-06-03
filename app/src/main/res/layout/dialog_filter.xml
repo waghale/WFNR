@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/green"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/inputSearch"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="08dp"
+        android:layout_marginTop="08dp"
+        android:layout_marginRight="08dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/search_design"
+        android:fontFamily="@font/work_sans"
+        android:hint="Search "
+        android:inputType="textVisiblePassword"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+
+    <ListView
+        android:id="@+id/lv1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#10557A"
+        android:dividerHeight="2dp" />
+
+
+</LinearLayout>

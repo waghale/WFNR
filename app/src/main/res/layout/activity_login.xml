@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:id="@+id/rootlayout"
+    tools:context=".Activity.RegistrationActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+
+
+        <RelativeLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Dashboard_back"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+                android:layout_centerVertical="true"
+                android:layout_height="20dp"/>
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/scientific_program_textview"
+                android:text="Registration"
+                android:textColor="@color/dark_green"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="bold"
+                android:layout_centerVertical="true"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:padding="@dimen/_7sdp"
+
+            android:gravity="center"
+            android:orientation="vertical"
+            android:id="@+id/frame"
+            android:layout_width="match_parent"
+            android:background="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+
+            android:clipToOutline="true"
+            >
+            <LinearLayout
+                android:layout_margin="@dimen/_7sdp"
+                android:orientation="vertical"
+                android:id="@+id/frame2"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="@dimen/_5sdp"
+                    android:text="Your Name *"
+                    style="@style/darkgreen_bold_12ssp_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_margin="@dimen/_5sdp"
+
+                    android:id="@+id/editTextMemberName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:fontFamily="@font/work_sans"
+                    android:background="@drawable/login_bg"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"
+                    android:inputType="textCapCharacters"
+                    android:textColorHint="@color/dark_green"
+
+                    />
+
+                <TextView
+                    android:layout_margin="@dimen/_7sdp"
+                    android:text="WCNR Registration Number *"
+                    style="@style/darkgreen_bold_12ssp_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+                <!-- Member Number input -->
+                <EditText
+
+                    android:id="@+id/editTextMemberNo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:fontFamily="@font/work_sans"
+                    android:background="@drawable/login_bg"
+
+                    android:textSize="15dp"
+                    android:textColor="@color/black"
+                    android:singleLine="true"
+                    android:inputType="textCapCharacters"
+                    android:textColorHint="@color/dark_green"
+
+                    />
+                <!-- Email or Phone Number input -->
+
+                <TextView
+                    android:layout_margin="@dimen/_7sdp"
+                    android:text="Email ID *"
+                    style="@style/darkgreen_bold_12ssp_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+                <EditText
+                    android:id="@+id/editTextEmailOrPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/work_sans"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:background="@drawable/login_bg"
+                    android:textColorHint="@color/dark_green"
+                    android:hint=""
+                    android:layout_below="@id/editTextMemberNo"
+
+                    />
+
+                <TextView
+                    android:layout_margin="@dimen/_7sdp"
+                    android:text="City"
+                    style="@style/darkgreen_bold_12ssp_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/editTextCity"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/work_sans"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:background="@drawable/login_bg"
+                    android:textColorHint="@color/dark_green"
+
+                    android:layout_below="@id/editTextMemberNo"
+
+                    />
+
+                <TextView
+                    android:layout_margin="@dimen/_7sdp"
+                    android:text="Country"
+                    style="@style/darkgreen_bold_12ssp_TextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:id="@+id/editTextCountry"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/_13sdp"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/work_sans"
+                    android:singleLine="true"
+                    android:textSize="15dp"
+                    android:background="@drawable/login_bg"
+                    android:textColorHint="@color/dark_green"
+
+                    android:layout_below="@id/editTextMemberNo"
+
+                    />
+
+
+                <TextView
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:background="@drawable/button_background"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register"
+                    android:fontFamily="@font/work_sans"
+                    android:padding="@dimen/_12sdp"
+                    android:id="@+id/loginButton"
+                    android:textSize="15dp"
+                    android:textStyle="bold"
+                    android:layout_below="@id/editTextEmailOrPhone"
+                    android:layout_marginTop="35dp"
+
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>

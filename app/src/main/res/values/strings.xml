@@ -1,0 +1,1097 @@
+<resources>
+    <string name="app_name">WFNR</string>
+
+    <string name="text">The World Federation for Neurorehabilitation (WFNR) is a multidisciplinary organisation with a mission to raise awareness of neurorehabilitation, provide training and education, encourage research and collaboration and provide a forum for all professionals interested in neurorehabilitation across the world.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_message">Welcome Note\n\nWe welcome you to the 13th World Congress for Neurorehabilitation and look forward to seeing you from 22–25 May 2024 in Vancouver.\n\nAn extensive and varied programme with a large number of top-class lectures awaits you and your colleagues, as well as a diverse range of pre-conference workshops for you to choose from. It is our great pleasure to welcome you to a unique experience to learn about the latest advances in research and practice in neurorehabilitation, while enjoying this beautiful city.\n\nWith best regards,\nJanice Eng &amp; Noah Silverberg\nConference chairs WCNR 2024</string>
+
+    <string name="privacy_policy_text">
+    <![CDATA[
+World Federation for NeuroRehabilitation(WFNR) https://www.wfnr.co.uk/website, which provides the SERVICE of medical education to the neurology fraternity of medicinal practice.
+
+        This page is used to inform website visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.
+If you choose to use our Service, then you agree to the collection and use of information in relation with this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which is accessible at, unless otherwise defined in this Privacy Policy.
+
+        Information Collection and Use
+        For a better experience while using our website and mobile app, we may require you to provide us with certain personally identifiable information, including but not limited to your
+        name, phone number, and email address. The information that we collect will be used to contact or identify you.
+
+        Log Data
+        We want to inform you that whenever you visit our website and mobile app, we collect information that your browser sends to us, which is called Log Data. This Log Data may include information such as your computer’s Internet Protocol (“IP”) address, browser version, pages of our Service that you visit, the time and date of your visit, the time spent on those pages, and other statistics.
+
+        Cookies
+        Cookies are files with small amounts of data that are commonly used as anonymous unique identifiers. These are sent to your browser from the website that you visit and are stored on your computer’s hard drive. Our website uses these “cookies” to collect information and to improve our Service. You have the option to either accept or refuse these cookies and know when a cookie is being sent to your computer. If you choose to refuse our cookies, you may not be able to use some portions of our Service.
+
+        Service Providers
+        We may employ third-party companies and individuals due to the following reasons:
+        - To facilitate our Service
+        - To provide the Service on our behalf
+        - To perform Service-related services or
+        - To assist us in analyzing how our Service is used
+
+        We want to inform our Service users that these third parties have access to your Personal Information. The reason is to perform the tasks assigned to them on our behalf. However, they are obligated not to disclose or use the information for any other purpose.
+
+        Security
+        We value your trust in providing us your Personal Information, thus we are striving to use commercially acceptable means of protecting it. But remember that no method of transmission over the internet, or method of electronic storage is 100% secure and reliable, and we cannot guarantee its absolute security.
+
+        Links to Other Sites
+        Our Service may contain links to other sites. If you click on a third-party link, you will be directed to that site. Note that these external sites are not operated by us. Therefore, we strongly advise you to review the Privacy Policy of these websites. We have no control over, and assume no responsibility for the content, privacy policies, or practices of any third-party sites or services.
+
+        Children’s Privacy
+        Our Services do not address anyone under the age of 18. We do not knowingly collect personal identifiable information from children under 18. In the case we discover that a child under 18 has provided us with personal information, we immediately delete this from our servers. If you are a parent or guardian and you are aware that your child has provided us
+        with personal information, please contact us so that we will be able to do necessary actions.
+
+        Changes to This Privacy Policy
+        We may update our Privacy Policy from time to time. Thus, we advise you to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page. These changes are effective immediately after they are posted
+        on this page.
+
+        Contact Us
+Contact Us
+If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact
+us at:digitalhealth@cmplin.com .
+This Privacy Policy page was created at:https://www.wfnr.co.uk/.    ]]>
+
+</string>
+    <string name="Organizing_Committee">Organizing Committee</string>
+    <string name="Scientific_Programme_Committee">Scientific Programme Committee</string>
+
+    <string name="sig_text">
+        Special Interest Groups (SIGs) constitute an important part of the World Federation for Neurorehabilitation (WFNR). Special Interest Groups promote the development of their specific area of interest within the general aims of WFNR and this includes engagement in educational activities. There are currently 44 Special Interest Groups, working across different disciplines. \n \nWFNR members are able to join any of the groups.  To do this, please email the contact person for each Special Interest Group.
+    </string>
+
+    <string name="Aquatic_Therapy">
+    <![CDATA[
+
+    <style>
+        body {
+            font-size: 4vw;
+             text-align: justify;
+        }
+    </style>
+        <font color="#19A887"><h3>Objectives</h3></font><br/>
+        <span style="text-decoration: underline;"> <font color="#0A5050"><b>1. Promote Awareness:</b></font></span>
+         <font color="#0A5050">Raise awareness about the benefits of aquatic therapy in neurorehabilitation through educational content and resources.</font><br/>
+        <span style="text-decoration: underline;">
+        <font color="#0A5050"><b>2. Foster Collaboration:</b></font></span>
+        <font color="#0A5050">Facilitate collaboration among professionals in the field, encouraging knowledge sharing and research initiatives.</font><br/>
+
+        <span style="text-decoration: underline;"><font color="#0A5050"><b>3. Enhance Accessibility:</b></font></span>
+        <font color="#0A5050">Improve accessibility to aquatic therapy resources and guidelines for neurorehabilitation practitioners and patients worldwide.</font><br/>
+        <span style="text-decoration: underline;"><font color="#0A5050"><b>4. Research Advancement:</b></font></span>
+        <font color="#0A5050"> Support and promote research efforts in aquatic therapy for neurorehabilitation, aiming to expand evidence-based practices.</font><br/>
+        <span style="text-decoration: underline;"><font color="#0A5050"><b>5. Professional Development:</b></font></span>
+         <font color="#0A5050">Offer educational opportunities and training programs to enhance the skills and knowledge of aquatic therapy practitioners in neurorehabilitation.</font><br/>
+        <span style="text-decoration: underline;"><font color="#0A5050"><b>6. Patient Advocacy:</b></font></span>
+        <font color="#0A5050">Advocate for the inclusion of aquatic therapy in neurorehabilitation programs and policies, ensuring patients have access to this effective treatment option.</font>
+    ]]>
+</string>
+
+
+
+    <!-- <string name="Alternative_Medicine">
+
+          <![CDATA[
+           <style>
+         body {
+             font-size: 4vw;
+              text-align: justify;
+         }
+     </style>
+         <font color="#19A887"><h3>Objectives</h3></font><br/>
+         1.Refine multi-national alternative medicine experience in neuro-rehabilitation.<br/>
+         2.Share and promote  best practice of alternative medicine in neuro-rehabilitation<br/>
+         3.Set up international alternative medicine guideline in neuro-rehabilitation to enhance clinic practice
+          ]]>
+
+     </string>-->
+
+
+    <string name="Alternative_Medicine">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+        }
+    </style>
+    <font color="#19A887"><h3>Objectives</h3></font><br/>
+    <ul>
+    <li>Refine multi-national alternative medicine experience in neuro-rehabilitation.</li>
+        <li>Share and promote best practice of alternative medicine in neuro-rehabilitation</li>
+        <li>Set up international alternative medicine guideline in neuro-rehabilitation to enhance clinic practice</li>
+    </ul>
+
+     <font color="#19A887"><h3>Action Plan</h3></font><br/>\n
+     Annual Gathering Meeting\n
+Annual Educational Program\n
+Annual Research Forum
+    ]]>
+</string>
+
+    <!-- <string name="Autonomic_Neurorehabilitation">
+         <b>Aims</b>
+         1.To raise awareness of a variety of autonomic disorders where neurorehabilitation plays a key role in management
+         2.To facilitate education and training in autonomic neurorehabilitation
+         3.To promote and build a network for research in autonomic neurorehabilitation, including clinicians, human physiologists and researchers
+         4.To lead on the integration across disciplines
+         5.To facilitate collaboration with other Scientific Societies and other international bodies (WHO, association of patients, families and NGOs) working within the field
+         6.Make advances in utilising drugs with pharmaceutical companies (i.e. Droxidopa, botulinum toxin)
+         7.Make technological advances (i.e. Finapres Medical Systems)
+         8.Interface with other SIG
+             1.Spinal Cord Injury - Humberto Cerrel Bazo
+             2.Rehabilitation for Movement Disorders – Rajinder Dhamija
+             3.Cervical Spondylotic Myelopathy- Jozef Opara
+     </string>-->
+
+
+    <string name="Autonomic_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+        }
+        ul.sub-list {
+            list-style-type: circle; /* Remove bullet for sub-list */
+            margin-left: 20px; /* Adjust margin as needed */
+        }
+    </style>
+    <font color="#19A887"><h3>Objectives</h3></font><br/>
+    <ul>
+        <li>To raise awareness of a variety of autonomic disorders where neurorehabilitation plays a key role in management</li>
+        <li>To facilitate education and training in autonomic neurorehabilitation</li>
+        <li>To promote and build a network for research in autonomic neurorehabilitation, including clinicians, human physiologists, and researchers</li>
+        <li>To lead on the integration across disciplines</li>
+        <li>To facilitate collaboration with other Scientific Societies and other international bodies (WHO, association of patients, families, and NGOs) working within the field</li>
+        <li>Make advances in utilizing drugs with pharmaceutical companies (i.e., Droxidopa, botulinum toxin)</li>
+        <li>Make technological advances (i.e., Finapres Medical Systems)</li>
+        <li>Interface with other SIG
+            <ul class="sub-list">
+                <li>Spinal Cord Injury - Humberto Cerrel Bazo</li>
+                <li>Rehabilitation for Movement Disorders – Rajinder Dhamija</li>
+                <li>Cervical Spondylotic Myelopathy - Jozef Opara</li>
+            </ul>
+        </li>
+    </ul>
+    ]]>
+</string>
+
+
+    <!--<string name="Botulinum_Toxin">
+        Objectives
+To promote evidence-based application of botulinum toxin therapy in neurorehabilitation;
+To enhance education activities in  the evaluation of spasticity in the clinical setting; and
+To identify knowledge gaps in botulinum toxin management of various neurologic conditions through a  critical appraisal of the scientific literature and disseminate information on the current state of the application of botulinum toxin therapy in neurorehabilitation.
+    </string>-->
+
+    <string name="Botulinum_Toxin">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ol {
+            list-style-type: decimal; /* Set list-style-type to decimal for numbered list */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#19A887"><h3><b>Objectives</b></h3></font>
+    <ol>
+        <li>To promote evidence-based application of botulinum toxin therapy in neurorehabilitation;</li>
+        <li>To enhance education activities in the evaluation of spasticity in the clinical setting; and</li>
+        <li>To identify knowledge gaps in botulinum toxin management of various neurologic conditions through a critical appraisal of the scientific literature and disseminate information on the current state of the application of botulinum toxin therapy in neurorehabilitation.</li>
+    </ol>
+    ]]>
+</string>
+
+    <!-- <string name="Brain_Computer_Interfaces">
+         The potential of BCIs to transform the landscape of neurological rehabilitation is immense, and through this dedicated SIG, we aim to harness and promote this transformative potential within the wider goals and vision of the WFNR.
+
+ The SIG on Brain-Computer Interfaces in Neurorehabilitation seeks to foster a collaborative environment where professionals and experts from various disciplines can converge to exchange knowledge, share best practices, and initiate research collaborations. The SIG serves as a platform for facilitating robust discussions, organizing specialized workshops, and promoting educational initiatives that highlight the intersection of BCIs with neurorehabilitation.
+
+ We aim to:
+
+ • Encourage interdisciplinary research and collaboration to advance the development of brain-computer interface technologies in the context of neurorehabilitation.
+
+ • Facilitate the dissemination of knowledge and best practices through specialized workshops, seminars, and educational initiatives, fostering professional development within the field.
+
+ • Act as a hub for information exchange, providing a comprehensive resource for the latest advancements, research findings, and practical applications related to BCIs in neurorehabilitation.
+
+ • Advocate for the integration of ethical considerations and patient-centered approaches in the implementation of BCI technologies, ensuring the responsible and equitable use of these innovations.
+     </string>-->
+
+    <string name="Brain_Computer_Interfaces">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+        li {
+            color: #0A5050; /* Set text color for list items */
+        }
+    </style>
+    The potential of BCIs to transform the landscape of neurological rehabilitation is immense, and through this dedicated SIG, we aim to harness and promote this transformative potential within the wider goals and vision of the WFNR.<br/><br/>
+
+    The SIG on Brain-Computer Interfaces in Neurorehabilitation seeks to foster a collaborative environment where professionals and experts from various disciplines can converge to exchange knowledge, share best practices, and initiate research collaborations. The SIG serves as a platform for facilitating robust discussions, organizing specialized workshops, and promoting educational initiatives that highlight the intersection of BCIs with neurorehabilitation. <br/><br/>
+
+    We aim to:
+    <ul>
+        <li>Encourage interdisciplinary research and collaboration to advance the development of brain-computer interface technologies in the context of neurorehabilitation.</li>
+        <li>Facilitate the dissemination of knowledge and best practices through specialized workshops, seminars, and educational initiatives, fostering professional development within the field.</li>
+        <li>Act as a hub for information exchange, providing a comprehensive resource for the latest advancements, research findings, and practical applications related to BCIs in neurorehabilitation.</li>
+        <li>Advocate for the integration of ethical considerations and patient-centered approaches in the implementation of BCI technologies, ensuring the responsible and equitable use of these innovations.</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <!-- <string name="Brain_Modulation_for_Neurorehabilitation">
+         This SIG was formed in 2019 and led by DrWayne Feng from Duke University of Medical Center.  In April 2024, Professor Nam-Jong Paik from Seoul National University, South Korea, took over as Chair.  A quarterly newsletter is published highlighting the important publications, research and technology in the field of brain modulation.
+
+     </string>-->
+
+    <string name="Brain_Modulation_for_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+    </style>
+    <p>
+        This SIG was formed in 2019 and led by Dr. Wayne Feng from Duke University of Medical Center. In April 2024, Professor Nam-Jong Paik from Seoul National University, South Korea, took over as Chair. A quarterly newsletter is published highlighting the important publications, research, and technology in the field of brain modulation.
+    </p>
+    ]]>
+</string>
+
+    <string name="Clinical_Applications_of_Advanced_Technologies">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To bring together clinicians and clinical-based researchers using advanced technologies in neurological rehabilitation to determine and reach a consensus on guidelines</li>
+        <li>To bring together clinicians and clinical-based researchers using advanced technologies in neurological rehabilitation to further and improve education provision in this field with a focus on clinical application</li>
+        <li>To contribute to the development of rehabilitation technologies by ensuring feedback and clinical requirements are provided to engineers, the developments are truly user-driven and based on the needs of clinicians and patients</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Clinical_Pathways">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To promote evidence-based practice in neurorehabilitation by critical appraisal of, and alerting to, clinical evidence that is relevant for clinical decision-making in neurorehabilitation</li>
+        <li>To provide and disseminate evidence-based practice recommendations for clinical pathways in neurorehabilitation</li>
+    </ul>
+    ]]>
+</string>
+
+    <!-- <string name="Cognitive_Neurorehabilitation">
+         The aim of this SIG is to promote an integrated approach to cognitive disorders focusing on cognitive interventions from the acute to chronic stages, including clinical and biomedical evaluations, indications for behavioural and pharmacological treatments, and evidence-based approach to treatment of cognitive disorders. Offer of teaching courses, with special intention for physicians; from introductory to advanced courses.
+
+     </string>-->
+
+    <string name="Cognitive_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+    </style>
+    The aim of this SIG is to promote an integrated approach to cognitive disorders focusing on cognitive interventions from the acute to chronic stages, including clinical and biomedical evaluations, indications for behavioural and pharmacological treatments, and evidence-based approach to treatment of cognitive disorders. Offer of teaching courses, with special intention for physicians; from introductory to advanced courses.
+    ]]>
+</string>
+
+    <string name="Communication_Disorders">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To create links and communications with other international networks interested in communication disorders</li>
+        <li>To provide and signpost education resources and guidelines on communication to interdisciplinary professionals and teams</li>
+        <li>To provide training in local languages to improve work with people with communication disorders worldwide</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Community_Based_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To upgrade and share knowledge about CBR and the role of neurorehabilitation in community-based and community-delivered rehabilitation</li>
+        <li>To share content, aims, and goals regarding different experiences in low-income countries to develop neurorehabilitation interventions involving and connecting CBR and specialized interventions</li>
+        <li>To contact world organizations, e.g., UN and WHO, focused on the right for health and inclusion for all, the struggle against poverty and its impact on disabled people, about the role for voluntary workers supporting disabled people at all levels in the community, and to share knowledge about neurorehabilitation and how we can cooperate to support the rights of disabled people to health and inclusion</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Dementia">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>The missions of this special interest group are to:</b></font>
+    <ul>
+        <li>Identify efficacious interventions for improving cognition, behavior, and everyday functioning in people living with dementia, and to prevent cognitive decline in frail people</li>
+        <li>Identify effective screening tools, with the potential to improve large-scale assessment in the senior population, and early-onset neurorehabilitation</li>
+        <li>Develop interdisciplinary guidelines for promoting high-quality research on the neurorehabilitation of dementia</li>
+        <li>Build a platform for information and exchange among all professionals interested in neurorehabilitation of dementia within the WFNR</li>
+        <li>Organize dedicated sessions at the WFNR meeting and other international conferences</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Developing_World_Forum">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To educate and to encourage research and quality training</li>
+        <li>To develop low-cost therapies</li>
+        <li>To help inform policies and collaboration</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Dysphagia">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To promote care, education, and research of swallowing disorders associated with neurological disease</li>
+        <li>To encourage an evidence-based approach to the assessment and treatment of neurogenic dysphagia</li>
+        <li>To strengthen the collaboration with other SIGs and international scientific societies to promote awareness of dysphagia management in people with neurological disorders</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Early_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+    </style>
+    <font color="#0A5050"><b>Objectives</b></font>
+    <ul>
+        <li>To establish recommendations for early verticalisation after SAH</li>
+        <li>To develop recommendations for the treatment (e.g., Facial Oral Tract Therapy) and evaluation of dysphagia after neurological and neurosurgical brain lesions (especially regarding the coordination of apnea and swallowing in the acute phase)</li>
+        <li>To create a virtual platform of interested specialists (e.g., members of the Early Neurorehabilitation SIG) in order to discuss issues in our daily management (on the condition that WFNR and EFNR gives us the mandate in coordination of the two societies)</li>
+    </ul>
+    ]]>
+</string>
+
+    <!--  <string name="Health_Policy_and_Economics_in_Neurorehabilitation">
+
+          Mission Statement
+  To address the multifaceted challenges of integrating health policy and economics into the realm of neurorehabilitation, ensuring that therapeutic strategies are not only clinically effective but also economically viable and policy compliant.
+
+  Objectives
+  1. Research Integration: To foster collaboration between economists, policymakers, and neurorehabilitation professionals, aiming to integrate clinical insights with economic and policy considerations.
+
+  2. Policy Advocacy: To advocate for informed health policies that prioritize and streamline neurorehabilitation interventions based on both clinical effectiveness and cost-effectiveness.
+
+  3. Education and Awareness: To conduct seminars, workshops, and conferences that highlight the importance of considering health economics in neurorehabilitation decision-making.
+
+  4. Resource Development: To curate and distribute resources that assist professionals in understanding the economic implications of their clinical decisions.
+
+  Outcomes
+  - Publication Series: Regular publications discussing the intersection of health economics, policy, and neurorehabilitation, aiming to inform practitioners and policymakers.
+
+  - Workshops &amp; Seminars: Annual or bi-annual events, in partnership with global organizations, bringing together thought leaders in the field to share insights and best practices.
+
+  - Resource Database: A centralized database for health policy and economic materials relevant to neurorehabilitation, updated periodically with new research findings.
+
+  - Policy Recommendations: Development of a set of policy recommendations to be shared with health departments and governmental bodies globally, promoting the best practices in neurorehabilitation from an economic perspective.
+
+  Who should join?
+  - Neurorehabilitation experts: Clinicians, therapists, and other professionals keen on understanding the broader economic and policy implications of their work.
+
+  - Health economists: Those focused on understanding the cost structures, benefits, and implications of interventions in the realm of neurorehabilitation.
+
+  - Policymakers: Individuals involved in health policy development and implementation, looking for evidence-based insights from the field of neurorehabilitation.
+
+  - Researchers: Academics and practitioners aiming to bridge the gap between clinical practice, economics, and policy in the domain of neurorehabilitation.
+
+  - Patients and advocates: Individuals or families affected by neurological conditions, looking to understand and advocate for economically sound and policy-compliant therapeutic strategies.
+
+
+
+      </string>-->
+
+    <string name="Health_Policy_and_Economics_in_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        ul {
+            list-style-type: disc; /* Remove default bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+        ol {
+            list-style-type: decimal; /* Set bullet style */
+            margin-left: 20px; /* Adjust margin as needed */
+            padding-left: 0; /* Remove default padding */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Mission Statement</span></font><br/>
+    To address the multifaceted challenges of integrating health policy and economics into the realm of neurorehabilitation, ensuring that therapeutic strategies are not only clinically effective but also economically viable and policy compliant.<br/><br/>
+
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ol>
+        <li><span class="bold">Research Integration:</span> To foster collaboration between economists, policymakers, and neurorehabilitation professionals, aiming to integrate clinical insights with economic and policy considerations.</li>
+        <li><span class="bold">Policy Advocacy:</span> To advocate for informed health policies that prioritize and streamline neurorehabilitation interventions based on both clinical effectiveness and cost-effectiveness.</li>
+        <li><span class="bold">Education and Awareness:</span> To conduct seminars, workshops, and conferences that highlight the importance of considering health economics in neurorehabilitation decision-making.</li>
+        <li><span class="bold">Resource Development:</span> To curate and distribute resources that assist professionals in understanding the economic implications of their clinical decisions.</li>
+    </ol>
+    <br/>
+
+    <font color="#0A5050"><span class="bold">Outcomes</span></font><br/>
+    <ul>
+        <li><span class="bold">Publication Series:</span> Regular publications discussing the intersection of health economics, policy, and neurorehabilitation, aiming to inform practitioners and policymakers.</li>
+        <li><span class="bold">Workshops & Seminars:</span> Annual or bi-annual events, in partnership with global organizations, bringing together thought leaders in the field to share insights and best practices.</li>
+        <li><span class="bold">Resource Database:</span> A centralized database for health policy and economic materials relevant to neurorehabilitation, updated periodically with new research findings.</li>
+        <li><span class="bold">Policy Recommendations:</span> Development of a set of policy recommendations to be shared with health departments and governmental bodies globally, promoting the best practices in neurorehabilitation from an economic perspective.</li>
+    </ul>
+    <br/>
+
+    <font color="#0A5050"><span class="bold">Who should join?</span></font><br/>
+    <ul>
+        <li><span class="bold">Neurorehabilitation experts:</span> Clinicians, therapists, and other professionals keen on understanding the broader economic and policy implications of their work.</li>
+        <li><span class="bold">Health economists:</span> Those focused on understanding the cost structures, benefits, and implications of interventions in the realm of neurorehabilitation.</li>
+        <li><span class="bold">Policymakers:</span> Individuals involved in health policy development and implementation, looking for evidence-based insights from the field of neurorehabilitation.</li>
+        <li><span class="bold">Researchers:</span> Academics and practitioners aiming to bridge the gap between clinical practice, economics, and policy in the domain of neurorehabilitation.</li>
+        <li><span class="bold">Patients and advocates:</span> Individuals or families affected by neurological conditions, looking to understand and advocate for economically sound and policy-compliant therapeutic strategies.</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="MAC_Measurement_Assessment_and_Classification">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    To raise awareness of the burden of neurological diseases using common international classifications e.g ICF, ICD, ICHI, and the use of assessment tools such as WHO DAS 2.0 in neurological conditions<br/>
+
+    To strengthen the development of ICF-based rehabilitation plans that comprise a common language, understood by team members, patients and their family, and to implement the use of ICF and WHO DAS 2.0 as valuable tools in neurorehabilitation<br/>
+
+    To promote neurorehabilitation as part of the Universal Health Coverage at global levels, and as health interventions to reach SDGs in accordance with the UN Conventions of the Rights of People with Disability, and the WHO and its relevant strategies and programmes such as Rehabilitation 2030 and Brain Health Unit programmes
+    ]]>
+</string>
+
+    <string name="Mild_and_Severe_Brain_Injury">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To develop a network of clinicians and researchers involved in the rehabilitation of both mild and severe brain injury. The involvement in the network is based on a multi-professional approach and interests.</li>
+        <li>To investigate and disseminate knowledge about traumatic and non-traumatic brain injury</li>
+        <li>To collaborate with other SIGs with an interest in brain injury to promote a robust understanding of the organizational model of care</li>
+    </ul>
+    ]]>
+</string>
+
+    <!-- <string name="Motivation_in_Neurorehabilitation">
+         Motivation is increasingly considered the missing link towards augmenting therapy intensity in day by day neurorehab work.
+
+ There is a growing body of literature aimed to deepen our knowledge on neurobiological, psychological and clinical issues of motivational processes in healthy individuals and, to a lesser extent, in patients after acute brain injury.
+
+ Nevertheless there is only a scarce interconnection and transfer between the various fields, a lack of consensus regarding basic aspects like definitions and assessment tools and no comprehensive implementation into neurorehab processes.
+
+ The Special Interest Group on Motivation aims to become a platform for sharing and exchanging knowledge soaring in all these fields  in order to transfer it into strategies to leverage patients motivation and hence adherence to therapies  during  neurorehabilitation.
+
+
+
+     </string>-->
+
+    <string name="Motivation_in_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+    </style>
+    Motivation is increasingly considered the missing link towards augmenting therapy intensity in day by day neurorehab work.<br/>
+
+    There is a growing body of literature aimed to deepen our knowledge on neurobiological, psychological and clinical issues of motivational processes in healthy individuals and, to a lesser extent, in patients after acute brain injury.<br/>
+
+    Nevertheless there is only a scarce interconnection and transfer between the various fields, a lack of consensus regarding basic aspects like definitions and assessment tools and no comprehensive implementation into neurorehab processes.<br/>
+
+    The Special Interest Group on Motivation aims to become a platform for sharing and exchanging knowledge soaring in all these fields in order to transfer it into strategies to leverage patients motivation and hence adherence to therapies during neurorehabilitation.
+    ]]>
+</string>
+
+    <string name="Multiple_Sclerosis_and_Demyelinating_Disorders">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To generate epidemiological data for multiple sclerosis and other demyelinating disorders to determine trends and variables for long-term outcomes</li>
+        <li>To formulate domain specific early rehabilitation programmes and guidelines for low cost models of multidisciplinary rehabilitation.</li>
+        <li>To evaluate appropriate outcome measures, optimal intensity, frequency, cost and effectiveness of multidisciplinary rehabilitation</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Neurological_Conditions_and_Driving">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To provide a network and resource for health professionals for the promotion of safe driving by individuals with a neurological condition</li>
+        <li>To provide recommendations for good practice in assessing and screening patients who want to start or return to driving</li>
+        <li>To facilitate research into fitness-to-drive, and encourage and support collaborative research studies across different countries</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Neurologic_Music_Therapy">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To advocate, disseminate, and support clinical neuroscience research in music applied to neurorehabilitation</li>
+        <li>To advocate, disseminate and conduct training in Neurologic Music Therapy for neurorehabilitation professionals</li>
+        <li>To maintain a presence for Neurologic Music Therapy Practice and Research at WFNR meetings, conferences, and in Flying Faculty programmes</li>
+    </ul>
+    ]]>
+</string>
+
+
+
+    <string name="Neurophilosophy_and_Ethics">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <p>To encourage cooperation between neuroscientists and philosophers concerning, in particular, the field of neural correlates of consciousness, free will/making decision mechanisms, emotion/empathy/mirror neurons, ethics/behavior, semiology.</p>
+    <p>To strengthen the development of bi-directional linkage between philosophical theories and neuroscientific hypothesis concerning in particular the epistemological/ontological approach in the different fields of neurophilosophy.</p>
+    <p>To promote meetings, teaching activities and research about the impact of neuroscientific evidence concerning plasticity, brain lesions and degeneration, recovery mechanisms on philosophical theories and vice versa, in particular in the field embodied cognition and neuroethics.</p>
+    <p>To develop educational programs, meetings and editorial activities concerning ethics problems in neurorehabilitation field, bioethics perspectives and relevance of Artificial Intelligence in clinical neurosciences field.</p>
+    ]]>
+</string>
+
+
+    <string name="Neurophysiology_and_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To provide members with the opportunity to enhance their knowledge and expertise in the field of neurophysiology through regular meetings, presentations, and discussions on the latest research findings, new methods, and emerging trends.</li>
+        <li>To create a platform for members to network with fellow and senior neurophysiologists, researchers, and professionals in related disciplines. Through workshops, conferences, and collaborative projects, the group aims to encourage interdisciplinary interactions, exchange ideas, and facilitate research partnerships that can lead to innovative discoveries and advancements in the field.</li>
+        <li>To promote the dissemination of neurophysiological research findings among the scientific community of neurorehabilitation.</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Neuropsychological_Rehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    To encourage and support multidisciplinary clinical practice and research into the rehabilitation of people with cognitive, emotional, psychosocial and behavioural deficits caused by brain injury or neurological conditions (both progressive and nonprogressive) across the lifespan<br/>
+    To improve the care of survivors of brain injury and their families through the translation of clinically relevant research<br/>
+    To support the future of neurorehabilitation throughout the world and to provide a forum of communication between those with an interest in the subject
+    ]]>
+</string>
+
+
+    <string name="Neurorehabilitation_Service_Development">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To raise awareness about neurorehabilitation services and minimum required standards</li>
+        <li>To link with disease specific Special Interest and other Groups to develop minimum service standards</li>
+        <li>To develop the understanding of service development education and training</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Neurosurgical_Reconstructive_and_Restorative_Rehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ol>
+        <li>To promote mutual understanding among acute-care neurosurgeons and neurorehabilitationists</li>
+        <li>To develop and prove treatment algorithms</li>
+        <li>To promote the path to ‘normal’ life for individuals with neurological conditions</li>
+    </ol>
+    ]]>
+</string>
+
+
+    <string name="Organisation_for_Psychological_Research_into_Stroke">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ol>
+        <li>To support, inform and encourage multidisciplinary research and awareness of research into the psychological consequences of stroke</li>
+        <li>To improve the care of stroke survivors and their families through the translation of clinically relevant research</li>
+        <li>To support psychological research in stroke across the world and to provide a forum of communication between those with an interest in the subject</li>
+    </ol>
+    ]]>
+</string>
+
+    <string name="Paediatric_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To highlight the special features and needs in the rehabilitation of children with lesions or diseases of the central nervous system; our interest comprises both congenital lesions and lesions acquired later in childhood</li>
+        <li>To provide a platform for information and exchange for all those interested in the neurorehabilitation of children and adolescents amongst the WFNR membership</li>
+        <li>To organise paediatric sessions at each WFNR Congress; platform presentations and posters</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Plexopathies">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To improve the functional diagnosis, prognosis and treatment of individuals with plexopathies of various etiologies</li>
+        <li>To promote molecular, genetic, physiological, biomechanical, treatment (rehabilitation, surgical and pharmaceutical), compensatory aids and behavioural studies directed at elucidating and decreasing the impairments of individuals with plexopathies</li>
+        <li>To contribute to an increase in activity and participation levels of individuals with plexopathies</li>
+    </ul>
+    ]]>
+</string>
+
+    <string name="Rehabilitation_for_Movement_Disorders">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To create awareness about the importance of rehabilitation for Movement Disorders</li>
+        <li>To stimulate the development of research protocols and guidelines on rehabilitation and Movement Disorders</li>
+        <li>To involve and integrate all the healthcare professionals with an interest in the field of Movement Disorders favouring integration and development of multidisciplinary approaches</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Robotics">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To promote the education of clinical professionals on the evidence-based application of robotics to the process of neurorehabilitation</li>
+        <li>To promote education for engineering, bioinformatics, and computer science researchers on robotics in neurorehabilitation</li>
+        <li>To create a hub and disseminate information on robotic applications in neurorehabilitation</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Spinal_Cord_Injury">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To promote specific topics of scientific interest and clinical practice related to restorative neurology, non-traumatic SCI, aging, incomplete SCI syndromes, dysphagia, functional corrective surgery, SCI associated with severe brain injury, sexuality, communication of the prognosis, by collaborating with SIGs of interest</li>
+        <li>To promote and disseminate specific knowledge for healthcare professionals and patients, through the development or participation in courses, guidelines, medical consensus, masterclasses, workshops, symposiums, congresses, podcasts and/or didactic material</li>
+        <li>To facilitate and promote the development of an international network by facilitating in cultural exchange with members of low or medium income countries</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Telerehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>To stimulate the use of telerehabilitation</li>
+        <li>To support the use and spread of telerehabilitation in developing countries</li>
+        <li>To disseminate theoretical and operational knowledge on telerehabilitation</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Women_in_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Purpose</span></font><br/>
+    To promote women in neurorehabilitation to achieve excellence and equity in their professional lives<br/><br/>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ol>
+        <li>To promote greater representation of women in neurorehabilitation</li>
+        <li>To serve as a platform for communication and collaboration among women in neurorehabilitation</li>
+        <li>To promote career development of women in neurorehabilitation through mentoring and networking</li>
+        <li>To encourage women to create a professional climate that supports career advancement, recognize achievements, and foster inclusivity</li>
+        <li>To foster specific female-centric approaches to neurorehabilitation research, practice, and philosophy</li>
+    </ol>
+    ]]>
+</string>
+
+
+    <string name="Yoga_Therapy_in_Neurorehabilitation">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ul>
+        <li>Creating awareness of Yoga Therapy among health care providers and the public. Yoga Therapy is choosing the appropriate yoga methods
+as per underlying medical disorders. Breathing exercises, meditation and asanas have many health benefits.</li>
+        <li>Conducting regular meetings as a Special Interest Group and in collaboration with other Special Interest Groups.</li>
+        <li>To carry out research activities on the role of Yoga in the rehabilitation of patients with neurological disorders.</li>
+    </ul>
+    ]]>
+</string>
+
+
+    <string name="Young_WFNR">
+    <![CDATA[
+    <style>
+        body {
+            font-size: 4vw;
+            text-align: justify;
+            color: #0A5050; /* Set text color */
+        }
+        .bold {
+            font-weight: bold; /* Set bold font weight */
+        }
+    </style>
+    <font color="#0A5050"><span class="bold">Objectives</span></font><br/>
+    <ol>
+        <li>Spark and promote interest in pursuing a clinical or research career in neurorehabilitation in early-career health care professionals and researchers.</li>
+        <li>Assist early-career professionals and researchers in neurorehabilitation to build a network by establishing connections to peers and senior professionals in neurorehabilitation.</li>
+        <li>Promote education in neurorehabilitation and make educative resources accessible to members.</li>
+        <li>Promote research interest in members and foster innovative projects. Aid early-career researchers in neurorehabilitation gain visibility.</li>
+        <li>Improve equity for early career healthcare professionals and researchers from LMIC.</li>
+    </ol>
+    ]]>
+</string>
+
+    <string name="please_wait">Please Wait</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="something_wrong">Something Wrong</string>
+
+    <string name="useful_info_text">
+        Check-in opening hours
+22 May, 8:00 a.m. – 4:30 p.m.
+23 May, 8:00 a.m. – 6:15 p.m.
+24 May, 8:00 a.m. – 5:30 p.m.
+25 May, 8:30 a.m. – 2:00 p.m.
+
+Certificate of attendance
+In order to receive a certificate, you need to scan your badge every day at the certification station near the check-in counter.
+The certificate will be sent to you via email after the congress.
+
+Catering
+Refreshments are available at the bistro in the exhibition hall.
+
+Social Programme
+You can sign up for these events in the online registration form.
+Tour of the GF Strong Rehabilitation Centre
+Date:			Wednesday 22 May 2024
+Time:			8:30 a.m. - 10:00 a.m.
+Fee:			10 Euro
+Max. # of participants:	25
+Tour of ICORD – International Collaboration on Repair Discoveries (ICORD)
+Date:			Wednesday 22 May 2024
+Time:			5:30 PM - 7:30 PM
+Fee:			10 Euro
+Max. # of participants:	100
+Welcome reception
+Date:			Thursday 23 May 2024
+Time:			7:45 PM - 9:00 PM
+Fee:			0 Euro
+
+Industry Exhibition
+Open in the breaks between sessions
+23 May, 8:00 a.m. – 8:00 p.m.
+24 May, 8:00 a.m. – 6:30 p.m.
+25 May, 8:30 a.m. – 3:00 p.m.
+
+    </string>
+
+</resources>

@@ -1,0 +1,103 @@
+<RelativeLayout
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp">
+
+            <ImageView
+                android:id="@+id/Topic_btn"
+                android:src="@drawable/back_btn"
+                android:layout_width="35dp"
+
+                android:layout_gravity="center"
+                android:layout_height="35dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/Topic_text"
+                android:textColor="@color/dark_green"
+                android:textSize="27dp"
+                android:textStyle="bold"
+                android:maxLines="3"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/Topic_title1"
+                android:textColor="@color/dark_green"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:layout_below="@id/linearlayout1"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:textAlignment="center"
+                android:layout_marginEnd="20dp"
+                android:layout_marginTop="30dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+
+
+
+
+        <LinearLayout
+            android:layout_below="@id/Topic_title1"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:visibility="visible"
+                android:layout_marginTop="10dp"
+                android:id="@+id/RecyclerView_topic"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/no_topic_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="350dp"
+            android:layout_marginStart="190dp"
+            android:text="No Topics Available"
+            android:textColor="@color/dark_green"
+            android:textSize="27dp"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>

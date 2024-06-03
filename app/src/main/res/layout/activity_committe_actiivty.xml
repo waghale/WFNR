@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+
+    android:layout_height="match_parent"
+    tools:context=".Activity.CommitteActiivty">
+
+
+    <RelativeLayout
+
+        android:id="@+id/relativelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <LinearLayout
+            android:id="@+id/linearlayout1"
+            android:padding="10dp"
+            android:background="@drawable/dashboard_top_background"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_60sdp">
+
+            <ImageView
+                android:id="@+id/Event_backbtn"
+                android:src="@drawable/back_btn"
+                android:layout_width="25dp"
+
+                android:layout_gravity="center"
+                android:layout_height="25dp"/>
+
+            <!-- Add your TextView for scientific program here -->
+            <TextView
+                android:id="@+id/commmittee"
+                android:text="Committee"
+                android:textColor="@color/dark_green"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/work_sans"
+                android:layout_marginStart="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"/>
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/text"
+            android:text="Organizing Committee"
+            android:textColor="@color/green"
+            android:textSize="20dp"
+            android:layout_below="@id/linearlayout1"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:fontFamily="@font/work_sans"
+            android:layout_marginStart="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"/>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcommette"
+            android:background="@color/white"
+            android:layout_below="@id/text"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp">
+            <RelativeLayout
+                android:padding="@dimen/_4sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card1"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp">
+                    <RelativeLayout
+                        android:background="@drawable/committee_shadow"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/image_351"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:src="@drawable/commiittee1" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/card1"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/name1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Janice Eng"
+                        android:layout_toRightOf="@id/card1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/work_sans"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"
+                        android:gravity="left|center_vertical"                />
+
+                    <TextView
+                        android:id="@+id/president1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/name"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:textColor="#CC262628"
+                        android:fontFamily="@font/work_sans"
+                        android:gravity="left|center_vertical"
+                        android:layout_marginTop="1dp"
+                        android:textSize="13dp"
+                        android:layout_toRightOf="@id/card1"
+                        android:text="Department of Physical Therapy University of British Columbia"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardcommette1"
+            android:background="@color/white"
+            android:layout_below="@id/text"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="180dp"
+            android:layout_marginEnd="10dp"
+            app:cardBackgroundColor="@color/white"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            app:cardCornerRadius="5dp"
+            app:cardElevation="7dp">
+            <RelativeLayout
+                android:padding="@dimen/_4sdp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shadow">
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/card2"
+                    android:layout_width="@dimen/_60sdp"
+                    android:layout_height="@dimen/_60sdp"
+                    android:layout_marginStart="5dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    app:cardElevation="8dp"
+                    app:cardCornerRadius="10dp">
+                    <RelativeLayout
+                        android:background="@drawable/committee_shadow"
+                        android:layout_width="@dimen/_60sdp"
+                        android:layout_height="@dimen/_60sdp">
+
+                        <ImageView
+                            android:id="@+id/image_35"
+                            android:layout_width="@dimen/_55sdp"
+                            android:layout_height="@dimen/_55sdp"
+                            android:layout_centerInParent="true"
+                            android:layout_gravity="center"
+                            android:src="@drawable/committee2" />
+
+                    </RelativeLayout>
+                </androidx.cardview.widget.CardView>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_14sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:layout_toRightOf="@+id/card2"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noah Silverbergy"
+                        android:layout_toRightOf="@id/card1"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:textSize="15dp"
+                        android:fontFamily="@font/work_sans"
+                        android:textStyle="bold"
+                        android:textColor="@color/green"
+                        android:gravity="left|center_vertical"                />
+
+                    <TextView
+                        android:id="@+id/president"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/name"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginEnd="20dp"
+                        android:textColor="#CC262628"
+                        android:fontFamily="@font/work_sans"
+                        android:gravity="left|center_vertical"
+                        android:layout_marginTop="1dp"
+                        android:textSize="13dp"
+                        android:layout_toRightOf="@id/card1"
+                        android:text="Department of Physical Therapy University of British Columbia"
+                        />
+                </LinearLayout>
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+
+    </RelativeLayout>
+
+</RelativeLayout>
